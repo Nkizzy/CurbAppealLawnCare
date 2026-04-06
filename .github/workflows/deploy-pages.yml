@@ -1,7 +1,7 @@
 # Publishes npm run build output (dist/), NOT the Vite source tree.
 #
 # Settings → Pages → Build: GitHub Actions (turn OFF “Deploy from a branch”).
-# Site URL: https://<user>.github.io/Eaton-Lighting/
+# Site URL: https://<user>.github.io/CrosbyHomeImprovements/
 
 name: Deploy site to GitHub Pages
 

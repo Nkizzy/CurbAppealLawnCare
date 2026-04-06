@@ -11,7 +11,7 @@ alwaysApply: true
 - **Local dev**: `npm run dev` serves the site with **hot module reload** — changes to [`index.html`](index.html), [`src/style.css`](src/style.css), and [`src/main.js`](src/main.js) show up in the browser **without** running `npm run build`. Use **`npm run build`** when you need the **`dist/`** output (production bundle, GitHub Pages, or `npm run preview`).
 - **Vanilla** single-page site: [`index.html`](index.html) (all sections), [`src/main.js`](src/main.js) (mobile nav), [`src/style.css`](src/style.css) (global styles).
 - **Static assets** in [`public/`](public/) (e.g. favicon).
-- **GitHub Pages**: production asset base is set in [`vite.config.js`](vite.config.js) (currently `/Crosby-Home-Improvements-Sample/`). It must match the GitHub **repository name** used for Pages. Update the remote URL here when the repo is published.
+- **GitHub Pages**: production asset base is set in [`vite.config.js`](vite.config.js) (currently `/CrosbyHomeImprovements/`). It must match the GitHub **repository name** used for Pages (see [github.com/Nkizzy/CrosbyHomeImprovements](https://github.com/Nkizzy/CrosbyHomeImprovements)). Site URL: `https://<user>.github.io/CrosbyHomeImprovements/`.
 
 ## Canonical business facts (update when the client changes)
 
