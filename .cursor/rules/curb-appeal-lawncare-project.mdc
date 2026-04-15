@@ -10,7 +10,7 @@ alwaysApply: true
 - **Vite 8** — dev server and production build (`npm run dev`, `npm run build`).
 - **Local dev**: `npm run dev` serves the site with **hot module reload** — changes to [`index.html`](index.html), [`src/style.css`](src/style.css), and [`src/main.js`](src/main.js) show up in the browser **without** running `npm run build`. Use **`npm run build`** when you need the **`dist/`** output (production bundle, GitHub Pages, or `npm run preview`).
 - **Vanilla** single-page site: [`index.html`](index.html) (all sections), [`src/main.js`](src/main.js) (mobile nav), [`src/style.css`](src/style.css) (global styles).
-- **Static assets** in [`public/`](public/) and [`src/assets/`](src/assets/) (logo in `src/assets/CurbAppealLogo.jpg`).
+- **Static assets** in [`public/`](public/) and [`src/assets/`](src/assets/) (logo in `src/assets/CurbAppealLogo.jpg`). **Link previews** (messages, social) use Open Graph / Twitter tags in [`index.html`](index.html) with [`public/og-image.jpg`](public/og-image.jpg) (copy of the logo); keep it in sync if the logo changes.
 - **Deploy base path**: [`vite.config.js`](vite.config.js) sets production `base` automatically: **`/`** on **Cloudflare Pages** (build env `CF_PAGES=1`), and **`/CurbAppealLawnCare/`** for **GitHub project Pages** (`https://<user>.github.io/CurbAppealLawnCare/`). Override with env **`VITE_BASE_PATH`** if needed. Cloudflare `*.pages.dev` and custom domains are always served from the site root — do not use the repo subpath there.
 
 ## Canonical business facts (update when the client changes)
